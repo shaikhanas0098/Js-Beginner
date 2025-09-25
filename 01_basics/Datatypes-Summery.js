@@ -40,4 +40,30 @@ console.log(typeof heroes);
 console.log(typeof anotherId);
 
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (primitive), Heap (Non-primitive)
+
+let myName = "Mohammad Anas"
+
+let anotherName = myName
+anotherName = "Zayn"
+
+console.log(myName);
+console.log(anotherName);
+
+
+let userOne = {
+    email: "Alex@google.com",
+    upi: "Alex@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Rohan@google.com"
+console.log(userOne.email);
+console.log(userTwo).email;
+
+
+
 
