@@ -16,7 +16,7 @@ for (const greet of greetings) {
     
 }
 
-// Maps
+// Map
 
 
 const map = new Map()
